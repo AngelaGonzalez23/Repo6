@@ -11186,7 +11186,7 @@
           }, []),
           (0, c.jsxs)("div", {
             style: {
-              maxWidth: 560,
+              maxWidth: 650,
               marginTop: 30,
               marginBottom: 200,
               marginRight: 10,
@@ -11194,7 +11194,7 @@
               paddingLeft: 15,
               paddingRight: 15,
               paddingBottom: 40,
-              backgroundColor: "#7DAFF9",
+              backgroundColor: "#D3E7EE",
               borderRadius: 15,
               boxShadow: "0px 0px",
             },
