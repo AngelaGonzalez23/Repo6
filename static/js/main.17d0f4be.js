@@ -11194,11 +11194,7 @@
               paddingLeft: 15,
               paddingRight: 15,
               paddingBottom: 40,
-              background:
-                linear -
-                gradient(
-                  "86.37deg,#daedff -6.08%,#dfe7ff 34.89%,#f1f5fb 98.82%"
-                ),
+              backgroundColor: "#7DAFF9",
               borderRadius: 15,
               boxShadow: "0px 0px",
             },
