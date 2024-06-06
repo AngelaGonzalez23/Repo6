@@ -240,7 +240,7 @@
                         : "" + n),
                     r ? e.setAttributeNS(r, t, n) : e.setAttribute(t, n))));
         }
-        "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horiz-adv-x horiz-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height"
+        "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horizontal-adv-x horizontal-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height"
           .split(" ")
           .forEach(function (e) {
             var t = e.replace(v, y);
@@ -10814,13 +10814,13 @@
                     marginTop: 40,
                     marginRight: 10,
                     marginLeft: 10,
-                    maxWidth: 700,
+                    maxWidth: 790,
                   },
                   children: (0, c.jsxs)("div", {
                     style: {
                       backgroundColor: "white",
                       minHeight: 200,
-                      maxWidth: 700,
+                      maxWidth: 790,
                       borderRadius: 5,
                       border: "1px solid #d0d0d0",
                       display: "flex",
@@ -10941,7 +10941,7 @@
                     marginTop: 40,
                     marginRight: 10,
                     marginLeft: 10,
-                    maxWidth: 600,
+                    maxWidth: 690,
                   },
                   children: (0, c.jsxs)("div", {
                     style: {
@@ -11145,7 +11145,7 @@
             marginRight: "-50%",
             transform: "translate(-50%, -50%)",
             width: "80%",
-            maxWidth: 650,
+            maxWidth: 740,
           },
         };
       l().setAppElement("#root");
@@ -11186,7 +11186,7 @@
           }, []),
           (0, c.jsxs)("div", {
             style: {
-              maxWidth: 700,
+              maxWidth: 650,
               marginTop: 30,
               marginBottom: 200,
               marginRight: 10,
