@@ -11186,7 +11186,7 @@
           }, []),
           (0, c.jsxs)("div", {
             style: {
-              maxWidth: 650,
+              maxWidth: 680,
               marginTop: 30,
               marginBottom: 200,
               marginRight: 10,
@@ -11195,7 +11195,7 @@
               paddingRight: 15,
               paddingBottom: 40,
               background:
-                "bg-gradient-to-tr from-light-green-500 to-light-green-300",
+                "bg-gradient-to-tr from-light-green-600 to-light-green-400",
               borderRadius: 15,
               boxShadow: "0px 0px",
             },
@@ -11334,11 +11334,7 @@
               (0, c.jsxs)("div", {
                 className: "",
                 style: {
-                  background:
-                    linear -
-                    gradient(
-                      "0deg, rgba(229, 227, 226, 1) 35%, rgba(229, 242, 249, 1) 65%, rgba(229, 255, 255, 1) 100%"
-                    ),
+                  backgroundColor: "rgb(226, 227, 229)",
                   paddingTop: 20,
                   paddingBottom: 20,
                   paddingLeft: 20,
