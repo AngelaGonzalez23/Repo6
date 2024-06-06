@@ -11334,7 +11334,11 @@
               (0, c.jsxs)("div", {
                 className: "",
                 style: {
-                  backgroundColor: "rgb(226, 227, 229)",
+                  background:
+                    linear -
+                    gradient(
+                      "0deg, rgba(229, 227, 226, 1) 35%, rgba(229, 242, 249, 1) 65%, rgba(229, 255, 255, 1) 100%"
+                    ),
                   paddingTop: 20,
                   paddingBottom: 20,
                   paddingLeft: 20,
@@ -11429,7 +11433,7 @@
                       marginTop: 20,
                       marginBottom: 15,
                     },
-                    children: "Review request:",
+                    children: "Review request",
                   }),
                   (0, c.jsx)("div", {
                     className: "",
