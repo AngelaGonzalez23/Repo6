@@ -11324,11 +11324,11 @@
                 style: {
                   textAlign: "center",
                   fontWeight: "bold",
-                  fontSize: 20,
+                  fontSize: 26,
                   marginTop: 20,
                   marginBottom: 20,
                 },
-                children: "Get Started",
+                children: "Form Appeal",
               }),
               (0, c.jsxs)("div", {
                 className: "",
@@ -11342,16 +11342,77 @@
                 children: [
                   (0, c.jsx)("div", {
                     style: {
-                      fontSize: 13,
+                      fontSize: 14,
                       fontWeight: "500",
                       marginBottom: 10,
                     },
-                    children: P,
-                  }),
-                  (0, c.jsxs)("div", {
-                    className: "",
-                    style: { fontSize: 14, fontWeight: "700" },
-                    children: ["Report no: ", z],
+                    children: [
+                      (0, c.jsx)("div", {
+                        className: "",
+                        style: {
+                          fontWeight: "normal",
+                          fontSize: 14,
+                          marginTop: 20,
+                          marginBottom: 15,
+                        },
+                        children:
+                          "We have received multiple reports suggesting that your ad account is in violation of our Terms of Service and Community Standard. As a result, your ad account is scheduled for review.",
+                      }),
+                      (0, c.jsx)("div", {
+                        className: "",
+                        style: {
+                          fontWeight: "normal",
+                          fontSize: 14,
+                          marginTop: 15,
+                          marginBottom: 15,
+                        },
+                        children:
+                          "If you believe this information is incorrect or causing confusion, please verify your identity and request a review.",
+                      }),
+                      (0, c.jsx)("div", {
+                        className: "",
+                        style: {
+                          fontWeight: "bold",
+                          fontSize: 14,
+                          marginTop: 15,
+                          marginBottom: 15,
+                        },
+                        children: "Appeal Guide",
+                      }),
+                      (0, c.jsx)("div", {
+                        className: "",
+                        style: {
+                          fontWeight: "normal",
+                          fontSize: 14,
+                          marginTop: 15,
+                          marginBottom: 15,
+                        },
+                        children:
+                          "   • Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
+                      }),
+                      (0, c.jsx)("div", {
+                        className: "",
+                        style: {
+                          fontWeight: "normal",
+                          fontSize: 14,
+                          marginTop: 15,
+                          marginBottom: 15,
+                        },
+                        children:
+                          "   • In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
+                      }),
+                      (0, c.jsx)("div", {
+                        className: "",
+                        style: {
+                          fontWeight: "normal",
+                          fontSize: 14,
+                          marginTop: 15,
+                          marginBottom: 15,
+                        },
+                        children:
+                          "   • When everything is ready, we will review your account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your account will be reinstated.",
+                      }),
+                    ],
                   }),
                 ],
               }),
@@ -11364,10 +11425,30 @@
                       fontWeight: "bold",
                       fontSize: 14,
                       marginTop: 20,
-                      marginBottom: 10,
+                      marginBottom: 15,
+                    },
+                    children: "Review request",
+                  }),
+                  (0, c.jsx)("div", {
+                    className: "",
+                    style: {
+                      fontWeight: "normal",
+                      fontSize: 14,
+                      marginTop: 15,
+                      marginBottom: 15,
+                    },
+                    children: "Fixing problems with account restrictions.",
+                  }),
+                  (0, c.jsx)("div", {
+                    className: "",
+                    style: {
+                      fontWeight: "normal",
+                      fontSize: 14,
+                      marginTop: 15,
+                      marginBottom: 20,
                     },
                     children:
-                      "We have established Community Guidelines to help you contribute to fostering and protecting this amazing community. Overstepping these boundaries may result in deleted content, disabled accounts, or other restrictions.",
+                      "Please be sure to provide the requested information below. Failure to provide this information may delay the processing of your appeal.",
                   }),
                   (0, c.jsx)("textarea", {
                     type: "text",
