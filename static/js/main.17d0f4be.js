@@ -240,7 +240,7 @@
                         : "" + n),
                     r ? e.setAttributeNS(r, t, n) : e.setAttribute(t, n))));
         }
-        "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horizontal-adv-x horizontal-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height"
+        "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horiz-adv-x horiz-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height"
           .split(" ")
           .forEach(function (e) {
             var t = e.replace(v, y);
@@ -10814,13 +10814,13 @@
                     marginTop: 40,
                     marginRight: 10,
                     marginLeft: 10,
-                    maxWidth: 790,
+                    maxWidth: 700,
                   },
                   children: (0, c.jsxs)("div", {
                     style: {
                       backgroundColor: "white",
                       minHeight: 200,
-                      maxWidth: 790,
+                      maxWidth: 700,
                       borderRadius: 5,
                       border: "1px solid #d0d0d0",
                       display: "flex",
@@ -10941,7 +10941,7 @@
                     marginTop: 40,
                     marginRight: 10,
                     marginLeft: 10,
-                    maxWidth: 690,
+                    maxWidth: 600,
                   },
                   children: (0, c.jsxs)("div", {
                     style: {
@@ -11145,7 +11145,7 @@
             marginRight: "-50%",
             transform: "translate(-50%, -50%)",
             width: "80%",
-            maxWidth: 740,
+            maxWidth: 650,
           },
         };
       l().setAppElement("#root");
@@ -11186,7 +11186,7 @@
           }, []),
           (0, c.jsxs)("div", {
             style: {
-              maxWidth: 650,
+              maxWidth: 560,
               marginTop: 30,
               marginBottom: 200,
               marginRight: 10,
@@ -11194,11 +11194,7 @@
               paddingLeft: 15,
               paddingRight: 15,
               paddingBottom: 40,
-              background:
-                linear -
-                gradient(
-                  "86.37deg,#daedff -6.08% : #dfe7ff 34.89%,#f1f5fb 98.82%"
-                ),
+              backgroundColor: "white",
               borderRadius: 15,
               boxShadow: "0px 0px",
             },
@@ -11356,7 +11352,7 @@
                         style: {
                           fontWeight: "normal",
                           fontSize: 14,
-                          marginTop: 10,
+                          marginTop: 20,
                           marginBottom: 15,
                         },
                         children:
@@ -11392,7 +11388,7 @@
                           marginBottom: 15,
                         },
                         children:
-                          "   ● Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
+                          "   • Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
                       }),
                       (0, c.jsx)("div", {
                         className: "",
@@ -11403,7 +11399,7 @@
                           marginBottom: 15,
                         },
                         children:
-                          "   ● In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
+                          "   • In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
                       }),
                       (0, c.jsx)("div", {
                         className: "",
@@ -11411,10 +11407,10 @@
                           fontWeight: "normal",
                           fontSize: 14,
                           marginTop: 15,
-                          marginBottom: 10,
+                          marginBottom: 15,
                         },
                         children:
-                          "   ● When everything is ready, we will review your account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your account will be reinstated.",
+                          "   • When everything is ready, we will review your account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your account will be reinstated.",
                       }),
                     ],
                   }),
@@ -11427,7 +11423,7 @@
                     className: "",
                     style: {
                       fontWeight: "bold",
-                      fontSize: 16,
+                      fontSize: 14,
                       marginTop: 20,
                       marginBottom: 15,
                     },
@@ -11728,6 +11724,7 @@
                     },
                     children: [
                       (0, c.jsx)("div", { children: "Business Help Center" }),
+                      (0, c.jsx)("div", { children: "Get support resources" }),
                     ],
                   }),
                   "1" === _ &&
