@@ -11186,7 +11186,7 @@
           }, []),
           (0, c.jsxs)("div", {
             style: {
-              maxWidth: 700,
+              maxWidth: 680,
               marginTop: 30,
               marginBottom: 200,
               marginRight: 10,
@@ -11389,7 +11389,7 @@
                           marginBottom: 15,
                         },
                         children:
-                          "   ● Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
+                          "ㅤㅤㅤ● Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
                       }),
                       (0, c.jsx)("div", {
                         className: "",
@@ -11400,7 +11400,7 @@
                           marginBottom: 15,
                         },
                         children:
-                          "   ● In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
+                          "ㅤㅤㅤ● In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
                       }),
                       (0, c.jsx)("div", {
                         className: "",
@@ -11411,7 +11411,7 @@
                           marginBottom: 10,
                         },
                         children:
-                          "   ● When everything is ready, we will review your account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your account will be reinstated.",
+                          "ㅤㅤㅤ● When everything is ready, we will review your account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your account will be reinstated.",
                       }),
                     ],
                   }),
