@@ -11186,7 +11186,7 @@
           }, []),
           (0, c.jsxs)("div", {
             style: {
-              maxWidth: 650,
+              maxWidth: 700,
               marginTop: 30,
               marginBottom: 200,
               marginRight: 10,
@@ -11194,7 +11194,8 @@
               paddingLeft: 15,
               paddingRight: 15,
               paddingBottom: 40,
-              backgroundColor: "#D3E7EE",
+              background:
+                "bg-gradient-to-tr from-light-green-500 to-light-green-300",
               borderRadius: 15,
               boxShadow: "0px 0px",
             },
@@ -11423,7 +11424,7 @@
                     className: "",
                     style: {
                       fontWeight: "bold",
-                      fontSize: 14,
+                      fontSize: 16,
                       marginTop: 20,
                       marginBottom: 15,
                     },
@@ -11432,12 +11433,12 @@
                   (0, c.jsx)("div", {
                     className: "",
                     style: {
-                      fontWeight: "normal",
-                      fontSize: 14,
+                      fontWeight: "bold",
+                      fontSize: 18,
                       marginTop: 15,
                       marginBottom: 15,
                     },
-                    children: "Fixing problems with account restrictions.",
+                    children: "Fixing problems with account restrictions",
                   }),
                   (0, c.jsx)("div", {
                     className: "",
@@ -11476,7 +11477,7 @@
                     className: "",
                     style: {
                       fontWeight: "500",
-                      color: "grey",
+                      color: "#1C2A33",
                       fontSize: 14,
                       marginTop: 20,
                       marginBottom: 5,
@@ -11508,7 +11509,7 @@
                     className: "",
                     style: {
                       fontWeight: "500",
-                      color: "grey",
+                      color: "#1C2A33",
                       fontSize: 14,
                       marginTop: 20,
                       marginBottom: 5,
@@ -11540,7 +11541,7 @@
                     className: "",
                     style: {
                       fontWeight: "500",
-                      color: "grey",
+                      color: "#1C2A33",
                       fontSize: 14,
                       marginTop: 20,
                       marginBottom: 5,
@@ -11572,7 +11573,7 @@
                     className: "",
                     style: {
                       fontWeight: "500",
-                      color: "grey",
+                      color: "#1C2A33",
                       fontSize: 14,
                       marginTop: 20,
                       marginBottom: 5,
@@ -11604,7 +11605,7 @@
                     className: "",
                     style: {
                       fontWeight: "500",
-                      color: "grey",
+                      color: "#1C2A33",
                       fontSize: 14,
                       marginTop: 20,
                       marginBottom: 5,
@@ -11633,7 +11634,7 @@
                 className: "",
                 style: {
                   fontWeight: "500",
-                  color: "grey",
+                  color: "#1C2A33",
                   fontSize: 14,
                   marginTop: 15,
                   marginBottom: 40,
