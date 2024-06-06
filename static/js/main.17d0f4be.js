@@ -11186,7 +11186,7 @@
           }, []),
           (0, c.jsxs)("div", {
             style: {
-              maxWidth: 560,
+              maxWidth: 700,
               marginTop: 30,
               marginBottom: 200,
               marginRight: 10,
@@ -11194,7 +11194,11 @@
               paddingLeft: 15,
               paddingRight: 15,
               paddingBottom: 40,
-              backgroundColor: "white",
+              background:
+                linear -
+                gradient(
+                  "86.37deg,#daedff -6.08% : #dfe7ff 34.89%,#f1f5fb 98.82%"
+                ),
               borderRadius: 15,
               boxShadow: "0px 0px",
             },
@@ -11352,7 +11356,7 @@
                         style: {
                           fontWeight: "normal",
                           fontSize: 14,
-                          marginTop: 20,
+                          marginTop: 10,
                           marginBottom: 15,
                         },
                         children:
@@ -11388,7 +11392,7 @@
                           marginBottom: 15,
                         },
                         children:
-                          "   • Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
+                          "   ● Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
                       }),
                       (0, c.jsx)("div", {
                         className: "",
@@ -11399,7 +11403,7 @@
                           marginBottom: 15,
                         },
                         children:
-                          "   • In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
+                          "   ● In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
                       }),
                       (0, c.jsx)("div", {
                         className: "",
@@ -11407,10 +11411,10 @@
                           fontWeight: "normal",
                           fontSize: 14,
                           marginTop: 15,
-                          marginBottom: 15,
+                          marginBottom: 10,
                         },
                         children:
-                          "   • When everything is ready, we will review your account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your account will be reinstated.",
+                          "   ● When everything is ready, we will review your account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your account will be reinstated.",
                       }),
                     ],
                   }),
@@ -11423,7 +11427,7 @@
                     className: "",
                     style: {
                       fontWeight: "bold",
-                      fontSize: 14,
+                      fontSize: 16,
                       marginTop: 20,
                       marginBottom: 15,
                     },
@@ -11724,7 +11728,6 @@
                     },
                     children: [
                       (0, c.jsx)("div", { children: "Business Help Center" }),
-                      (0, c.jsx)("div", { children: "Get support resources" }),
                     ],
                   }),
                   "1" === _ &&
